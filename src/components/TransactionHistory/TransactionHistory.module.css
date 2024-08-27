@@ -1,26 +1,27 @@
-table {
+.table {
   margin: 0 auto;
   border-collapse: collapse;
   border: 1px solid black;
   font-size: 18px;
 }
 
-thead {
+.tableHead {
   background-color: #2a2a2a;
   color: white;
 }
 
-th {
+.tableHeading {
   width: 200px;
   padding: 6px 12px;
   border: 1px solid black;
 }
 
-tr:nth-child(even) {
+.tableRow:nth-child(even) {
   background-color: lightgray;
 }
 
-td {
+.tableCell {
+  padding: 5px 10px;
   text-align: center;
   border: 1px solid black;
 }
