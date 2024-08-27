@@ -1,0 +1,26 @@
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+thead {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+th {
+  width: 200px;
+  padding: 6px 12px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
